@@ -35,7 +35,7 @@ export const Skills = () => {
                             <div
                                 key={i}
                                 className="sm:h-[220px] sm:w-[220px] flex flex-col justify-between 
-                                           items-center bg-white/10 p-2 sm:p-4 rounded-xl"
+                                           items-center bg-white/10 p-5 sm:p-4 rounded-xl"
                             >
                                 {skill.icon}
                                 <p className="mt-2 font-mono">

@@ -55,9 +55,11 @@ export const Hero = () => {
                 <p className="text-center text-[14px] sm:text-lg font-mono mx-4 sm:max-w-[650px] sm:mx-auto mt-8 text-white/80">
                     {t('description')}
                 </p>
-                <p className="text-center text-[9px] sm:text-[11px] font-mono mx-4 sm:max-w-[620px] sm:mx-auto mt-5 text-white/80">
-                    {t('subdescription')}
-                </p>
+                <i>
+                    <p className="text-center text-[9px] sm:text-[11px] font-mono mx-4 sm:max-w-[620px] sm:mx-auto mt-5 text-white/80">
+                        {t('subdescription')}
+                    </p>
+                </i>
 
                 <Image
                     src={profilepic}
