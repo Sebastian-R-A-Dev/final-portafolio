@@ -42,3 +42,11 @@ html {
   animation: gradient-xy 5s ease infinite;
   background-size: 200% 200%;
 }
+
+/* globals.css */
+.gradient-custom {
+  background: linear-gradient(to bottom, #171717, #381a5F, #171717);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

@@ -13,8 +13,7 @@ export const Hero = () => {
     return (
         <div
             id="hero"
-            className="bg-gradient-to-b from-[#171717] via-[#381a5F] to-[#171717] 
-                       mt-20 relative overflow-clip"
+            className="gradient-custom mt-20 relative overflow-clip"
         >
             <div>
                 <div className="font-bold text-center mx-4 sm:mx-0">
