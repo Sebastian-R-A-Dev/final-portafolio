@@ -1,0 +1,142 @@
+{
+  "Navbar": {
+    "items": [
+      {
+        "value": "About me",
+        "url": "#about-me"
+      },
+      {
+        "value": "Projects",
+        "url": "#projects"
+      },
+      {
+        "value": "Technologies",
+        "url": "#technologies"
+      },
+      {
+        "value": "Contact me",
+        "url": "#contact-me"
+      }
+    ]
+  },
+  "Hero": {
+    "title": "Hi, I am",
+    "description": "Programmer with three years of experience, characterized by responsibility, reliability, creativity and maintaining a positive attitude toward every challenge.",
+    "subdescription": "\"I am not afraid of new challenges or emerging technologies, I adapt quickly to any environment and am always willing to contribute with commitment, a positive attitude, and continuous learning to the teams that place their trust in me.\""
+  },
+  "About": {
+    "title": "About",
+    "subtitle": "me",
+    "cards": {
+      "card1": {
+        "title": "Profile",
+        "texts": [
+          "I am reserved but effective in a team. Respect, punctuality, and meeting objectives."
+        ]
+      },
+      "card2": {
+        "title": "Education",
+        "texts": [
+          "Engineer (Unicolombo, 2024)",
+          "English B1 (Unicolombo, 2024)"
+        ]
+      },
+      "card3": {
+        "title": "Free Time",
+        "texts": ["Programming", "Astronomy and Earth sciences", "Games"]
+      },
+      "card4": {
+        "title": "Career",
+        "texts": [
+          "Passionate about programming since the beginning of my career, I am excited to create algorithmic solutions.",
+          "Worked at Wyer Development Center (2020-2024)",
+          "Currently at Creztu S.A.S"
+        ]
+      }
+    }
+  },
+  "tecnologies": {
+    "title": "Technologies"
+  },
+  "Contact": {
+    "title": "Let's Connect",
+    "text": "Send me a message and let's schedule a call!",
+    "inputs": [
+      {
+        "type": "text",
+        "name": "name",
+        "placeholder": "First Name"
+      },
+      {
+        "type": "text",
+        "name": "lastName",
+        "placeholder": "Last Name"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email"
+      },
+      {
+        "type": "number",
+        "name": "phone",
+        "placeholder": "Phone Number"
+      }
+    ],
+    "text_area": {
+      "placeholder": "Your message"
+    },
+    "send_button": "Send Message"
+  },
+  "Projects": {
+    "title": "Selected",
+    "subtitle": "Proyects",
+    "items": [
+      {
+        "title": "Landings and E-commerces",
+        "description": "Creztu projects in which I have participated or built from scratch",
+        "devStack": "Next, Tailwind CSS, Nest",
+        "links": [
+          {
+            "title": "Web 1",
+            "url": "https://regulatoryintelligence.com"
+          },
+          {
+            "title": "Web 2",
+            "url": "https://www.audiostoregt.com"
+          },
+          {
+            "title": "Web 3",
+            "url": "https://orionrealtyco.com"
+          }
+        ],
+        "image": "/images/projects/lading_projects.png"
+      },
+      {
+        "title": "Creztu",
+        "description": "Project for landings and e-commerces management",
+        "devStack": "Next, Nest",
+        "links": [
+          {
+            "title": "Web",
+            "url": "https://creztu.com/sitiosweb"
+          }
+        ],
+        "image": "/images/projects/creztu.png"
+      }
+    ]
+  },
+  "Anexes": {
+    "title": "Annexes",
+    "subtitle": "To whom It May Concern",
+    "items": [
+      { "img": "/images/anexos/diploma.jpg", "label": "Diploma" },
+      { "img": "/images/anexos/acta.jpg", "label": "Graduation Certificate" },
+      { "img": "/images/anexos/ingles.jpg", "label": "English Certificate" },
+      {
+        "img": "/images/anexos/certificado_lab.jpg",
+        "label": "Work Certificate"
+      }
+    ]
+  }
+}

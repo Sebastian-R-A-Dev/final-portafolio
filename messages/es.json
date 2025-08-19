@@ -1,0 +1,146 @@
+{
+  "Navbar": {
+    "items": [
+      {
+        "value": "Acerca de mí",
+        "url": "#about-me"
+      },
+      {
+        "value": "Proyectos",
+        "url": "#projects"
+      },
+      {
+        "value": "Tecnologías",
+        "url": "#technologies"
+      },
+      {
+        "value": "Contáctame",
+        "url": "#contact-me"
+      }
+    ]
+  },
+  "Hero": {
+    "title": "Hola, Yo soy",
+    "description": "Programador con tres años de experiencia, caracterizado por su responsabilidad, confiabilidad, creatividad y con una actitud positiva frente a cada desafío.",
+    "subdescription": "\"No le temo a los nuevos retos ni a las tecnologías emergentes, me adapto con rapidez a cualquier entorno y estoy siempre dispuesto a aportar con compromiso, actitud y aprendizaje continuo a los equipos que confían en mí.\""
+  },
+  "About": {
+    "title": "Acerca de",
+    "subtitle": "mí",
+    "cards": {
+      "card1": {
+        "title": "Perfil",
+        "texts": [
+          "Soy reservado pero eficaz en equipo. Respeto, puntualidad y cumplimiento de objetivos."
+        ]
+      },
+      "card2": {
+        "title": "Estudios",
+        "texts": [
+          "Ingeniero (Unicolombo, 2024)",
+          "Inglés B1 (Unicolombo, 2024)"
+        ]
+      },
+      "card3": {
+        "title": "Tiempo Libre",
+        "texts": [
+          "Programación",
+          "Astronomía y ciencias de la Tierra",
+          "Juegos"
+        ]
+      },
+      "card4": {
+        "title": "Trayectoria",
+        "texts": [
+          "Apasionado por la programación desde mis inicios, me llena de emoción crear soluciones algorítmicas.",
+          "Trabajo en Wyer Development Center (2020-2024)",
+          "Actualmente en Creztu S.A.S"
+        ]
+      }
+    }
+  },
+  "tecnologies": {
+    "title": "Tecnologías"
+  },
+  "Contact": {
+    "title": "Conectemos",
+    "text": "¡Envíame un mensaje y programemos una llamada!",
+    "inputs": [
+      {
+        "type": "text",
+        "name": "name",
+        "placeholder": "Nombre"
+      },
+      {
+        "type": "text",
+        "name": "lastName",
+        "placeholder": "Apellido"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email"
+      },
+      {
+        "type": "number",
+        "name": "phone",
+        "placeholder": "Numero"
+      }
+    ],
+    "text_area": {
+      "placeholder": "Tu mensaje"
+    },
+    "send_button": "Enviar"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "subtitle": "seleccionados",
+    "items": [
+      {
+        "title": "Pag. Landings y E-commerces",
+        "description": "Proyectos Creztu en los que he participado o realizado desde cero su construcción",
+        "devStack": "Next, Tailwind CSS, Nest",
+        "links": [
+          {
+            "title": "Web 1",
+            "url": "https://regulatoryintelligence.com"
+          },
+          {
+            "title": "Web 2",
+            "url": "https://www.audiostoregt.com"
+          },
+          {
+            "title": "Web 3",
+            "url": "https://orionrealtyco.com"
+          }
+        ],
+        "image": "/images/projects/lading_projects.png"
+      },
+      {
+        "title": "Creztu",
+        "description": "Proyecto para la administracion de landings y e-commerces",
+        "devStack": "Next, Nest",
+        "links": [
+          {
+            "title": "Web",
+            "url": "https://creztu.com/sitiosweb"
+          }
+        ],
+        "image": "/images/projects/creztu.png"
+      }
+    ]
+  },
+  "Anexes": {
+    "title": "Anexos",
+    "subtitle": "A quien le interese",
+    "items": [
+      { "img": "/images/anexos/diploma.jpg", "label": "Diploma" },
+      { "img": "/images/anexos/acta.jpg", "label": "Acta de grado" },
+      { "img": "/images/anexos/ingles.jpg", "label": "Certificado Inglés" },
+      {
+        "img": "/images/anexos/certificado_lab.jpg",
+        "label": "Certificado Laboral"
+      }
+    ]
+  }
+}
