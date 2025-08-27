@@ -94,7 +94,8 @@
     "items": [
       {
         "title": "Landings and E-commerces",
-        "description": "Creztu projects in which I have participated or built from scratch",
+        "description": "Project for the management of landings and e-commerces of Creztu's clients, a multitenant software capable of handling and managing personal information about your business concept as a Creztu client.",
+        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience.",
         "devStack": "Next, Tailwind CSS, Nest",
         "links": [
           {
@@ -115,6 +116,7 @@
       {
         "title": "Creztu",
         "description": "Project for landings and e-commerces management",
+        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience.",
         "devStack": "Next, Nest",
         "links": [
           {
@@ -123,6 +125,27 @@
           }
         ],
         "image": "/images/projects/creztu.png"
+      },
+      {
+        "title": "Governance.CC",
+        "description": "Multitenant and multi-user software capable of managing information related to a company and its clients. I worked on migrating the monolithic software to microservices and microapps, as well as migrating database information from PSQL to DynamoDB. Finally, I performed version upgrades from Java 8 to 11 and from Angular beta to 14, together with my team.",
+        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience. (Not publicly available)",
+        "devStack": "AngularJS, Java, Hibernate, Jakarta EE, PSQL",
+        "links": [],
+        "image": "/images/projects/vernuso.png"
+      },
+      {
+        "title": "Chatbox-server",
+        "description": "This project allows querying information about common diseases in dogs using a local language model (Ollama) and a fast search index based on text embeddings. It was my first experience interacting with pre-trained local AI models, where a specific behavior is configured and enriched with a previously defined context.",
+        "smallDescription": "Personal project where I aimed to learn more about Python and the use of local models, in this case LLaMA2 from Ollama.",
+        "devStack": "Python, Ollama, Llama2, FastAPI",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/chatbox-server"
+          }
+        ],
+        "image": "/images/projects/python.png"
       }
     ]
   },

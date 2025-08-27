@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 type Projects = {
     title: string;
     description: string;
+    smallDescription: string;
     devStack: string;
     links: Link[];
     image: string;
@@ -42,9 +43,14 @@ export const Projects = () => {
                         >
 
                             <div className='space-y-2 max-w-[550px]'>
-                                <h2 className='text-7xl my-4 text-white/70'>{`0${i + 1}`}</h2>
+                                <h2 className='text-7xl mb-4 text-white/70'>{`0${i + 1}`}</h2>
                                 <h2 className='text-4xl'>{project.title}</h2>
-                                <p className='sm:text-lg text-white/70 break-words py-4'>{project.description}</p>
+                                <p className='sm:text-lg text-white/70 break-words pt-4 pr-6'>{project.description}</p>
+                                <i>
+                                    <p className='text-[10px] pb-4'>
+                                        {project.smallDescription}
+                                    </p>
+                                </i>
                                 <p className='text-lg sm:text-xl text-orange-400 font-semibold'>{project.devStack}</p>
                                 <div className='w-64 h-[1px] bg-gray-400 my-4' />
                                 {
@@ -54,9 +60,9 @@ export const Projects = () => {
                                 }
                             </div>
 
-                            <div className='flex justify-center items-center mt-4 md:mt-0'>
+                            <div>
                                 <Image
-                                    className='h-[350px] w-[500px] object-cover border rounded border-gray-700'
+                                    className='h-[350px] w-[500px] border rounded border-gray-700'
                                     src={project.image}
                                     width={500}
                                     height={350}

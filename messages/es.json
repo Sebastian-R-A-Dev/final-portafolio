@@ -98,7 +98,8 @@
     "items": [
       {
         "title": "Pag. Landings y E-commerces",
-        "description": "Proyectos Creztu en los que he participado o realizado desde cero su construcción",
+        "description": "Paginas de comercio electronico o lading pages en los que he participado o realizado desde cero su construcción.",
+        "smallDescription": "Proyectos perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral.",
         "devStack": "Next, Tailwind CSS, Nest",
         "links": [
           {
@@ -118,7 +119,8 @@
       },
       {
         "title": "Creztu",
-        "description": "Proyecto para la administracion de landings y e-commerces",
+        "description": "Proyecto para la administración de landings y e-commerces de los clientes Creztu, software multitenant capaz de manejar y administrar información personal sobre tu concepto de negocio como cliente Creztu.",
+        "smallDescription": "Proyecto perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral.",
         "devStack": "Next, Nest",
         "links": [
           {
@@ -127,6 +129,27 @@
           }
         ],
         "image": "/images/projects/creztu.png"
+      },
+      {
+        "title": "Governance.CC",
+        "description": "Software multitenant y multiusuario capaz de administrar información relacionada con una empresa y sus clientes. Trabajé aquí en la migración del software monolito a microservicios y microapps, así como en la migración de información de la base de datos PSQL a DynamoDB. Por último, realicé la actualización de versiones de Java 8 a 11 y de Angular beta a 14, junto a mi equipo de trabajo.",
+        "smallDescription": "Proyecto perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral. (No abierto públicamente)",
+        "devStack": "AngularJS, Java, Hibernate, Jakarta EE, PSQL",
+        "links": [],
+        "image": "/images/projects/vernuso.png"
+      },
+      {
+        "title": "Chatbox-server",
+        "description": "Este proyecto permite consultar información sobre enfermedades comunes en perros utilizando un modelo de lenguaje local (Ollama) y un índice de búsqueda rápido basado en embeddings de texto. Fue mi primera experiencia interactuando con modelos de IA locales ya entrenados, donde se configura un comportamiento específico y se enriquece con un contexto previamente definido.",
+        "smallDescription": "Proyecto personal en el que buscaba aprender más sobre Python y el uso de modelos locales, en este caso LLaMA2 de Ollama.",
+        "devStack": "Python, Ollama, Llama2, FastAPI",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/chatbox-server"
+          }
+        ],
+        "image": "/images/projects/python.png"
       }
     ]
   },
