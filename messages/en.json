@@ -146,6 +146,23 @@
           }
         ],
         "image": "/images/projects/python.png"
+      },
+      {
+        "title": "Corpoturismo",
+        "description": "Web application for managing the arrivals and departures of tourist cruises in the city of Cartagena. The system has two main interfaces: the administration panel in black and the user panel in blue. The goal is to improve tourist service by helping guides stay better organized, as the system provides a type of scheduling or shift management for each incoming event.",
+        "smallDescription": "Personal project developed to gain experience with the mentioned technologies.",
+        "devStack": "PHP, JS, Bootstrap, MySQL",
+        "links": [
+          {
+            "title": "Web",
+            "url": "https://corpoturimosdevseb.infinityfreeapp.com/"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/corpoturismo"
+          }
+        ],
+        "image": "/images/projects/corpoturismo.png"
       }
     ]
   },

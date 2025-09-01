@@ -135,7 +135,12 @@
         "description": "Software multitenant y multiusuario capaz de administrar información relacionada con una empresa y sus clientes. Trabajé aquí en la migración del software monolito a microservicios y microapps, así como en la migración de información de la base de datos PSQL a DynamoDB. Por último, realicé la actualización de versiones de Java 8 a 11 y de Angular beta a 14, junto a mi equipo de trabajo.",
         "smallDescription": "Proyecto perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral. (No abierto públicamente)",
         "devStack": "AngularJS, Java, Hibernate, Jakarta EE, PSQL",
-        "links": [],
+        "links": [
+          {
+            "title": "Test Web",
+            "url": "https://testgov.etm2004.com/"
+          }
+        ],
         "image": "/images/projects/vernuso.png"
       },
       {
@@ -150,6 +155,23 @@
           }
         ],
         "image": "/images/projects/python.png"
+      },
+      {
+        "title": "Corpoturismo",
+        "description": "Aplicación web para la gestión de llegadas y salidas de cruceros turísticos en la ciudad de Cartagena. El sistema cuenta con dos interfaces principales: la parte de administración con color negro y la de usuarios con color azul. La idea es facilitar la atención a los turistas, haciendo que los guías tengan una mejor organización, ya que el sistema les ofrece una especie de turnos para cada evento entrante.",
+        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
+        "devStack": "PHP, JS, Bootstrap, MySQL",
+        "links": [
+          {
+            "title": "Web",
+            "url": "https://corpoturimosdevseb.infinityfreeapp.com/"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/corpoturismo"
+          }
+        ],
+        "image": "/images/projects/corpoturismo.png"
       }
     ]
   },
