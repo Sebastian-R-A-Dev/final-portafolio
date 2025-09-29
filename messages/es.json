@@ -185,6 +185,19 @@
           }
         ],
         "image": "/images/projects/javaspringboot.png"
+      },
+      {
+        "title": "Inferno Bank",
+        "description": "(Reto) Proyecto NodeJs, Terraform y Servicios de AWS",
+        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
+        "devStack": "NodeJs, Terraform, AWS Services",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/inferno-bank/tree/main/terraform"
+          }
+        ],
+        "image": "/images/projects/node_terraform_aws.png"
       }
     ]
   },
