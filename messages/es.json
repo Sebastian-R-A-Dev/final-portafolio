@@ -172,6 +172,19 @@
           }
         ],
         "image": "/images/projects/corpoturismo.png"
+      },
+      {
+        "title": "Java Admin Cafe",
+        "description": "Servidor correspondiente a la plataforma Café Admin, desarrollado en Java con Spring Boot.",
+        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
+        "devStack": "Java, Spring Boot, MySQL",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/java-backend-cafe-admin"
+          }
+        ],
+        "image": "/images/projects/javaspringboot.png"
       }
     ]
   },
