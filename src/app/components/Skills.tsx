@@ -23,10 +23,12 @@ const skillIcons = [
     { icon: <FaGitAlt className={iconClass} />, label: "Git" },
 ]
 
+//old custom gradient> bg-[linear-gradient(to_top,#171717,#381a5f_80%)]
+
 export const Skills = () => {
     const t = useTranslations('tecnologies');
     return (
-        <div className="bg-[linear-gradient(to_top,#171717,#381a5f_80%)] pt-20">
+        <div className="pt-20">
             <div id="technologies" className="text-white max-w-[900px] lg:max-w-[950px] mx-auto px-4 sm:p-8 text-center">
                 <h2 className="text-5xl sm:text-6xl text-center font-bold mb-20">{t('title')}</h2>
                 <div className="grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -38,7 +40,7 @@ export const Skills = () => {
                                            items-center bg-white/10 p-5 sm:p-4 rounded-xl"
                             >
                                 {skill.icon}
-                                <p className="mt-2 font-mono">
+                                <p className="mt-2 text-orange-400 font-mono">
                                     {skill.label}
                                 </p>
                             </div>

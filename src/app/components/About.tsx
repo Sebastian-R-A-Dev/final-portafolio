@@ -11,10 +11,12 @@ export const About = () => {
 
     console.log(cards.card1);
 
+    //old bg> bg-[#171717]
+
 
     return (
         <>
-            <div id="about-me" className="max-w-[980px] xl:max-w-[1200px] bg-[#171717] mx-auto">
+            <div id="about-me" className="max-w-[980px] xl:max-w-[1200px] mx-auto">
                 <h1 className="text-white text-center text-5xl sm:text-6xl
                                  font-semibold p-4 mb-4"
                 >

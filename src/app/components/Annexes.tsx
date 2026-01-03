@@ -21,8 +21,10 @@ export const Anexes = () => {
         setIsOpen(true)
     }
 
+    //old bg custom>bg-gradient-to-b from-[#171717] via-[#381a5F] to-[#171717]
+
     return (
-        <div className="bg-gradient-to-b from-[#171717] via-[#381a5F] to-[#171717]">
+        <div className="">
             <h1 className="text-white text-6xl text-center font-semibold mt-24">{t("title")}</h1>
             <p className="text-orange-400 mt-4 font-mono text-center">{t("subtitle")}</p>
             {/* Grid de tarjetas */}
@@ -40,7 +42,7 @@ export const Anexes = () => {
                             height={320}
                             className="w-full h-[80%] object-contain rounded-md"
                         />
-                        <span className="text-white mt-2">{item.label}</span>
+                        <span className="text-orange-400 mt-2">{item.label}</span>
                     </div>
                 ))}
             </div>

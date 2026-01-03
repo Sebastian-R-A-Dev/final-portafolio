@@ -6,10 +6,6 @@
         "url": "#about-me"
       },
       {
-        "value": "Projects",
-        "url": "#projects"
-      },
-      {
         "value": "Technologies",
         "url": "#technologies"
       },
@@ -50,7 +46,7 @@
         "texts": [
           "Passionate about programming since the beginning of my career, I am excited to create algorithmic solutions.",
           "Worked at Wyer Development Center (2020-2024)",
-          "Currently at Creztu S.A.S"
+          "Worked at Creztu S.A.S (2024-2025)"
         ]
       }
     }

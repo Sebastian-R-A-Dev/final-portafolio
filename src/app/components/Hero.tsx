@@ -9,11 +9,12 @@ import { useTranslations } from "next-intl";
 
 export const Hero = () => {
     const t = useTranslations('Hero');
+    //old bg custom> gradient-custom
 
     return (
         <div
             id="hero"
-            className="gradient-custom mt-20 relative overflow-clip"
+            className="mt-20 relative overflow-clip"
         >
             <div>
                 <div className="font-bold text-center mx-4 sm:mx-0">
