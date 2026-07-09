@@ -1,213 +1,177 @@
 {
   "Navbar": {
     "items": [
-      {
-        "value": "Acerca de mí",
-        "url": "#about-me"
-      },
-      {
-        "value": "Tecnologías",
-        "url": "#technologies"
-      },
-      {
-        "value": "Contáctame",
-        "url": "#contact-me"
-      }
+      { "value": "Acerca de mí", "url": "#about-me" },
+      { "value": "Proyectos", "url": "#projects" },
+      { "value": "Tecnologías", "url": "#technologies" },
+      { "value": "Contáctame", "url": "#contact-me" }
     ]
   },
   "Hero": {
-    "title": "Hola, Yo soy",
-    "description": "Programador con tres años de experiencia, caracterizado por su responsabilidad, confiabilidad, creatividad y con una actitud positiva frente a cada desafío.",
-    "subdescription": "\"No le temo a los nuevos retos ni a las tecnologías emergentes, me adapto con rapidez a cualquier entorno y estoy siempre dispuesto a aportar con compromiso, actitud y aprendizaje continuo a los equipos que confían en mí.\""
+    "title": "Hola, yo soy",
+    "description": "Ingeniero de Sistemas con 4 años de experiencia desarrollando aplicaciones Full Stack con Java, Node.js, Next.js y Angular. He participado en la modernización de plataformas empresariales mediante microservicios, migraciones SQL a NoSQL e implementación de soluciones en AWS. Actualmente desarrollo plataformas SaaS, integraciones con terceros y funcionalidades impulsadas por Inteligencia Artificial.",
+    "subdescription": "No le temo a los nuevos retos ni a las tecnologías emergentes, me adapto con rapidez a cualquier entorno y estoy siempre dispuesto a aportar con compromiso, actitud y aprendizaje continuo a los equipos que confían en mí."
   },
   "About": {
     "title": "Acerca de",
     "subtitle": "mí",
+    "hint": "Información resumida de mi perfil profesional. Haz clic en cada tarjeta para ver más detalles.",
+    "tapToExpand": "Clic para ver más →",
+    "viewCv": "Ver hoja de vida",
+    "cvUrl": "/docs/spanish.pdf",
     "cards": {
       "card1": {
-        "title": "Perfil",
+        "title": "Experiencia",
+        "preview": "Creztu S.A.S · WYER · Full Stack",
         "texts": [
-          "Soy reservado pero eficaz en equipo. Respeto, puntualidad y cumplimiento de objetivos."
+          "Creztu S.A.S (Dic 2024 – Actualidad): desarrollo Full Stack con Next.js, Vue.js, NestJS y Express. IA para generación de sitios web con Craft.js, arquitectura AWS (S3, CloudFront, DynamoDB), pasarelas Wompi, ePayco y Stripe.",
+          "WYER (Jul 2022 – Nov 2024): migración de monolito a micro aplicaciones con Angular 14, backend Java (Jakarta EE, Hibernate), APIs REST y migración PostgreSQL → DynamoDB.",
+          "Uso activo de herramientas de IA: Cursor, GitHub Copilot y ChatGPT para acelerar desarrollo y refactorización."
         ]
       },
       "card2": {
-        "title": "Estudios",
+        "title": "Educación",
+        "preview": "Ingeniería de Sistemas · Unicolombo",
         "texts": [
-          "Ingeniero (Unicolombo, 2024)",
-          "Inglés B1 (Unicolombo, 2024)"
+          "Ingeniería de Sistemas — Fundación Universitaria Colombo Internacional (2019 – 2024).",
+          "Matrícula Profesional COPNIA — Cartagena (Mayo 2026)."
         ]
       },
       "card3": {
-        "title": "Tiempo Libre",
+        "title": "Idiomas",
+        "preview": "Español nativo · Inglés B1",
         "texts": [
-          "Programación",
-          "Astronomía y ciencias de la Tierra",
-          "Juegos"
+          "Español — Nativo.",
+          "Inglés — Nivel B1 (certificado Unicolombo, 2024)."
         ]
       },
       "card4": {
-        "title": "Trayectoria",
+        "title": "Enfoque",
+        "preview": "SaaS · Cloud · IA · Escalabilidad",
         "texts": [
-          "Apasionado por la programación desde mis inicios, me llena de emoción crear soluciones algorítmicas.",
-          "Trabajo en Wyer Development Center (2020-2024)",
-          "Trabajo en Creztu S.A.S (2024-2025)"
+          "Diseño de soluciones escalables con código mantenible y buenas prácticas de ingeniería.",
+          "Experiencia en Kubernetes, Docker, Terraform, EventBridge, OpenSearch y Amazon SES.",
+          "Participación activa en diseño técnico y evolución de funcionalidades junto a equipos ágiles."
         ]
       }
     }
   },
   "tecnologies": {
-    "title": "Tecnologías"
+    "title": "Tecnologías",
+    "subtitle": "Stack que uso día a día en proyectos reales"
   },
   "Contact": {
     "title": "Conectemos",
     "text": "¡Envíame un mensaje y programemos una llamada!",
+    "whatsappMessage": "Hola, vi tu portafolio estoy interesado en trabajar contigo.",
     "inputs": [
-      {
-        "type": "text",
-        "name": "name",
-        "placeholder": "Nombre"
-      },
-      {
-        "type": "text",
-        "name": "lastName",
-        "placeholder": "Apellido"
-      },
-      {
-        "type": "email",
-        "name": "email",
-        "placeholder": "Email"
-      },
-      {
-        "type": "number",
-        "name": "phone",
-        "placeholder": "Numero"
-      }
+      { "type": "text", "name": "name", "placeholder": "Nombre" },
+      { "type": "text", "name": "lastName", "placeholder": "Apellido" },
+      { "type": "email", "name": "email", "placeholder": "Email" },
+      { "type": "tel", "name": "phone", "placeholder": "Teléfono" }
     ],
-    "text_area": {
-      "placeholder": "Tu mensaje"
-    },
+    "text_area": { "placeholder": "Tu mensaje" },
     "send_button": "Enviar"
   },
   "Projects": {
     "title": "Proyectos",
-    "subtitle": "seleccionados",
+    "subtitle": "destacados",
+    "intro": "Ecosistema ArcadeCore: backend central multi-app con frontends de autenticación, quiz, chat y administración.",
     "items": [
       {
-        "title": "Pag. Landings y E-commerces",
-        "description": "Paginas de comercio electronico o lading pages en los que he participado o realizado desde cero su construcción.",
-        "smallDescription": "Proyectos perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral.",
-        "devStack": "Next, Tailwind CSS, Nest",
-        "links": [
-          {
-            "title": "Web 1",
-            "url": "https://regulatoryintelligence.com"
-          },
-          {
-            "title": "Web 2",
-            "url": "https://www.audiostoregt.com"
-          },
-          {
-            "title": "Web 3",
-            "url": "https://orionrealtyco.com"
-          }
-        ],
-        "image": "/images/projects/lading_projects.png"
-      },
-      {
-        "title": "Creztu",
-        "description": "Proyecto para la administración de landings y e-commerces de los clientes Creztu, software multitenant capaz de manejar y administrar información personal sobre tu concepto de negocio como cliente Creztu.",
-        "smallDescription": "Proyecto perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral.",
-        "devStack": "Next, Nest",
-        "links": [
-          {
-            "title": "Web",
-            "url": "https://creztu.com/sitiosweb"
-          }
-        ],
-        "image": "/images/projects/creztu.png"
-      },
-      {
-        "title": "Governance.CC",
-        "description": "Software multitenant y multiusuario capaz de administrar información relacionada con una empresa y sus clientes. Trabajé aquí en la migración del software monolito a microservicios y microapps, así como en la migración de información de la base de datos PSQL a DynamoDB. Por último, realicé la actualización de versiones de Java 8 a 11 y de Angular beta a 14, junto a mi equipo de trabajo.",
-        "smallDescription": "Proyecto perteneciente a Creztu SAS, mostrado aquí únicamente como parte de mi experiencia laboral. (No abierto públicamente)",
-        "devStack": "AngularJS, Java, Hibernate, Jakarta EE, PSQL",
-        "links": [
-          {
-            "title": "Test Web",
-            "url": "https://testgov.etm2004.com/"
-          }
-        ],
-        "image": "/images/projects/vernuso.png"
-      },
-      {
-        "title": "Chatbox-server",
-        "description": "Este proyecto permite consultar información sobre enfermedades comunes en perros utilizando un modelo de lenguaje local (Ollama) y un índice de búsqueda rápido basado en embeddings de texto. Fue mi primera experiencia interactuando con modelos de IA locales ya entrenados, donde se configura un comportamiento específico y se enriquece con un contexto previamente definido.",
-        "smallDescription": "Proyecto personal en el que buscaba aprender más sobre Python y el uso de modelos locales, en este caso LLaMA2 de Ollama.",
-        "devStack": "Python, Ollama, Llama2, FastAPI",
+        "title": "ArcadeCore API",
+        "description": "Backend central del ecosistema Arcade. API REST con Node.js, Express, PostgreSQL y Prisma. Autenticación JWT multi-app, retos de quiz con sesión server-side, chat WebSocket, leaderboard, progresión de jugadores y panel administrativo.",
+        "devStack": "Node.js · TypeScript · Express · Prisma · PostgreSQL · WebSocket · Supabase",
         "links": [
           {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/chatbox-server"
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-core"
+          },
+          {
+            "title": "Swagger",
+            "url": "https://arcade-core.onrender.com/api/docs"
+          },
+          {
+            "title": "API Health",
+            "url": "https://arcade-core.onrender.com/health"
           }
         ],
-        "image": "/images/projects/python.png"
+        "gradient": "from-cyan-600/40 to-violet-700/40"
       },
       {
-        "title": "Corpoturismo",
-        "description": "Aplicación web para la gestión de llegadas y salidas de cruceros turísticos en la ciudad de Cartagena. El sistema cuenta con dos interfaces principales: la parte de administración con color negro y la de usuarios con color azul. La idea es facilitar la atención a los turistas, haciendo que los guías tengan una mejor organización, ya que el sistema les ofrece una especie de turnos para cada evento entrante.",
-        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
-        "devStack": "PHP, JS, Bootstrap, MySQL",
+        "title": "Generic Login",
+        "description": "Portal de autenticación centralizado del ecosistema. Login, registro y cambio de contraseña obligatorio. Redirige a cada SPA tras autenticarse contra ArcadeCore con cookies HttpOnly por aplicación.",
+        "devStack": "Next.js · React · TypeScript · Tailwind CSS · Axios",
         "links": [
           {
-            "title": "Web",
-            "url": "https://corpoturimosdevseb.infinityfreeapp.com/"
+            "title": "Ver demo",
+            "url": "https://arcade-generic-login.vercel.app/login"
           },
           {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/corpoturismo"
+            "url": "https://github.com/Sebastian-R-A-Dev/generic-login"
           }
         ],
-        "image": "/images/projects/corpoturismo.png"
+        "gradient": "from-violet-600/40 to-cyan-700/40"
       },
       {
-        "title": "Java Admin Cafe",
-        "description": "Servidor correspondiente a la plataforma Café Admin, desarrollado en Java con Spring Boot.",
-        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
-        "devStack": "Java, Spring Boot, MySQL",
+        "title": "English Challenge",
+        "description": "SPA gamer de retos de inglés en tiempo real. Ruleta de dificultad, preguntas cronometradas, XP, niveles y ranking global. Consume la API de retos y progresión de ArcadeCore.",
+        "devStack": "Next.js · React · Zustand · Framer Motion · Tailwind CSS",
         "links": [
           {
+            "title": "Ver demo",
+            "url": "https://arcade-english-challenge.vercel.app/"
+          },
+          {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/java-backend-cafe-admin"
+            "url": "https://github.com/Sebastian-R-A-Dev/english-challenge"
           }
         ],
-        "image": "/images/projects/javaspringboot.png"
+        "gradient": "from-cyan-500/40 to-fuchsia-700/40"
       },
       {
-        "title": "Inferno Bank",
-        "description": "(Reto) Proyecto NodeJs, Terraform y Servicios de AWS",
-        "smallDescription": "Proyecto personal desarrollado con el fin de adquirir experiencia con las tecnologías mencionadas.",
-        "devStack": "NodeJs, Terraform, AWS Services",
+        "title": "Arcade Chat",
+        "description": "Chat comunitario en tiempo real con sala global efímera, mensajes directos persistentes, presencia online y XP por tiempo conectado. Cliente WebSocket + REST sobre ArcadeCore.",
+        "devStack": "Next.js · React · Zustand · WebSocket · Framer Motion",
         "links": [
           {
+            "title": "Ver demo",
+            "url": "https://core-arcade-chat.vercel.app/"
+          },
+          {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/inferno-bank/tree/main/terraform"
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-chat"
           }
         ],
-        "image": "/images/projects/node_terraform_aws.png"
+        "gradient": "from-fuchsia-600/40 to-cyan-600/40"
+      },
+      {
+        "title": "Admin Dashboard",
+        "description": "Panel administrativo para gestionar apps, usuarios, preguntas, dificultades, imágenes, audios y mensajes de nivel del ecosistema Arcade. CRUD completo con autenticación de administrador.",
+        "devStack": "Next.js · React · TypeScript · Tailwind CSS",
+        "links": [
+          {
+            "title": "Ver demo",
+            "url": "https://arcade-admin-dashboard.vercel.app/"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-admin-dashboard"
+          }
+        ],
+        "gradient": "from-amber-600/30 to-violet-700/40"
       }
     ]
   },
   "Anexes": {
     "title": "Anexos",
-    "subtitle": "A quien le interese",
+    "subtitle": "Certificaciones y documentos",
+    "clickHint": "Clic para visualizar en detalle",
     "items": [
       { "img": "/images/anexos/diploma.jpg", "label": "Diploma" },
       { "img": "/images/anexos/acta.jpg", "label": "Acta de grado" },
-      { "img": "/images/anexos/ingles.jpg", "label": "Certificado Inglés" },
-      {
-        "img": "/images/anexos/certificado_lab.jpg",
-        "label": "Certificado Laboral"
-      }
+      { "img": "/images/anexos/ingles.jpg", "label": "Certificado Inglés" }
     ]
   }
 }

@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio — Sebastian Ruiz Avila
 
-## Getting Started
+Portafolio web personal de **Sebastian Ruiz Avila**, Ingeniero de Sistemas y desarrollador Full Stack. Presenta mi perfil profesional, experiencia, proyectos destacados y formas de contacto en un sitio bilingüe (español / inglés).
 
-First, run the development server:
+## ¿Qué es este proyecto?
+
+Es una SPA construida con **Next.js 15** y **next-intl** que funciona como mi carta de presentación digital. El diseño usa un tema oscuro con acentos cyan, animaciones suaves y una experiencia responsive pensada para reclutadores, clientes y colegas del sector tech.
+
+## ¿Qué puedes encontrar?
+
+| Sección | Descripción |
+|---------|-------------|
+| **Hero** | Presentación con resumen profesional actualizado desde mi CV. |
+| **Acerca de mí** | Tarjetas expandibles con experiencia, educación, idiomas y enfoque técnico. Incluye enlace a la hoja de vida en PDF. |
+| **Proyectos** | Ecosistema **ArcadeCore**: API backend, login centralizado, English Challenge, Arcade Chat y Admin Dashboard, con links a demo, GitHub y documentación Swagger. |
+| **Tecnologías** | Carrusel automático del stack que uso (Java, Node.js, Next.js, AWS, IA, etc.). |
+| **Conectemos** | Formulario de contacto, WhatsApp y correo electrónico. |
+| **Anexos** | Certificaciones y documentos (diploma, acta de grado, certificado de inglés). |
+| **Footer** | Enlaces a LinkedIn, GitHub y WhatsApp. |
+
+## Stack tecnológico
+
+- **Framework:** Next.js 15 (App Router)
+- **UI:** React 19, Tailwind CSS v4, Framer Motion
+- **i18n:** next-intl (es / en)
+- **Iconos:** react-icons
+- **Formulario:** getform.io
+
+## Requisitos
+
+- Node.js 18+
+- npm
+
+## Instalación y desarrollo
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000). El idioma por defecto es español; puedes cambiar a inglés desde la barra de navegación.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | Servidor de desarrollo |
+| `npm run build` | Build de producción |
+| `npm run start` | Servir build |
+| `npm run lint` | ESLint |
 
-## Learn More
+## Estructura principal
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/app/
+├── [locale]/page.tsx      # Página principal
+├── components/            # Hero, About, Projects, Skills, Contact, Annexes, Footer
+├── globals.css            # Estilos globales y animaciones
+messages/
+├── es.json                # Traducciones en español
+└── en.json                # Traducciones en inglés
+public/
+└── docs/spanish.pdf       # Hoja de vida (CV)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contacto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email:** sebastianruizavila47@gmail.com
+- **WhatsApp:** +57 300 293 1945
+- **LinkedIn:** [sebastian-de-jesus-ruiz-avila](https://www.linkedin.com/in/sebastian-de-jesus-ruiz-avila-050684245/)
+- **GitHub:** [Sebastian-R-A-Dev](https://github.com/Sebastian-R-A-Dev)
 
-## Deploy on Vercel
+## Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proyecto personal. Todos los derechos reservados.

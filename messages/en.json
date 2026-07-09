@@ -1,204 +1,177 @@
 {
   "Navbar": {
     "items": [
-      {
-        "value": "About me",
-        "url": "#about-me"
-      },
-      {
-        "value": "Technologies",
-        "url": "#technologies"
-      },
-      {
-        "value": "Contact me",
-        "url": "#contact-me"
-      }
+      { "value": "About me", "url": "#about-me" },
+      { "value": "Projects", "url": "#projects" },
+      { "value": "Technologies", "url": "#technologies" },
+      { "value": "Contact me", "url": "#contact-me" }
     ]
   },
   "Hero": {
     "title": "Hi, I am",
-    "description": "Programmer with three years of experience, characterized by responsibility, reliability, creativity and maintaining a positive attitude toward every challenge.",
-    "subdescription": "\"I am not afraid of new challenges or emerging technologies, I adapt quickly to any environment and am always willing to contribute with commitment, a positive attitude, and continuous learning to the teams that place their trust in me.\""
+    "description": "Systems Engineer with 4 years of experience building Full Stack applications with Java, Node.js, Next.js and Angular. I have contributed to enterprise platform modernization through microservices, SQL to NoSQL migrations and AWS solutions. Currently developing SaaS platforms, third-party integrations and AI-powered features.",
+    "subdescription": "I am not afraid of new challenges or emerging technologies, I adapt quickly to any environment and am always willing to contribute with commitment, a positive attitude, and continuous learning to the teams that place their trust in me."
   },
   "About": {
     "title": "About",
     "subtitle": "me",
+    "hint": "A summary of my professional profile. Click each card to see more details.",
+    "tapToExpand": "Click to see more →",
+    "viewCv": "View resume",
+    "cvUrl": "/docs/spanish.pdf",
     "cards": {
       "card1": {
-        "title": "Profile",
+        "title": "Experience",
+        "preview": "Creztu S.A.S · WYER · Full Stack",
         "texts": [
-          "I am reserved but effective in a team. Respect, punctuality, and meeting objectives."
+          "Creztu S.A.S (Dec 2024 – Present): Full Stack development with Next.js, Vue.js, NestJS and Express. AI for website generation with Craft.js, AWS architecture (S3, CloudFront, DynamoDB), Wompi, ePayco and Stripe payment gateways.",
+          "WYER (Jul 2022 – Nov 2024): monolith to micro-apps migration with Angular 14, Java backend (Jakarta EE, Hibernate), REST APIs and PostgreSQL → DynamoDB migration.",
+          "Active use of AI tools: Cursor, GitHub Copilot and ChatGPT to accelerate development and refactoring."
         ]
       },
       "card2": {
         "title": "Education",
+        "preview": "Systems Engineering · Unicolombo",
         "texts": [
-          "Engineer (Unicolombo, 2024)",
-          "English B1 (Unicolombo, 2024)"
+          "Systems Engineering — Fundación Universitaria Colombo Internacional (2019 – 2024).",
+          "Professional License COPNIA — Cartagena (May 2026)."
         ]
       },
       "card3": {
-        "title": "Free Time",
-        "texts": ["Programming", "Astronomy and Earth sciences", "Games"]
+        "title": "Languages",
+        "preview": "Native Spanish · English B1",
+        "texts": [
+          "Spanish — Native.",
+          "English — B1 level (Unicolombo certificate, 2024)."
+        ]
       },
       "card4": {
-        "title": "Career",
+        "title": "Focus",
+        "preview": "SaaS · Cloud · AI · Scalability",
         "texts": [
-          "Passionate about programming since the beginning of my career, I am excited to create algorithmic solutions.",
-          "Worked at Wyer Development Center (2020-2024)",
-          "Worked at Creztu S.A.S (2024-2025)"
+          "Designing scalable solutions with maintainable code and software engineering best practices.",
+          "Experience with Kubernetes, Docker, Terraform, EventBridge, OpenSearch and Amazon SES.",
+          "Active participation in technical design and feature evolution within agile teams."
         ]
       }
     }
   },
   "tecnologies": {
-    "title": "Technologies"
+    "title": "Technologies",
+    "subtitle": "Stack I use daily on real projects"
   },
   "Contact": {
     "title": "Let's Connect",
     "text": "Send me a message and let's schedule a call!",
+    "whatsappMessage": "Hi, I saw your portfolio and I'm interested in working with you.",
     "inputs": [
-      {
-        "type": "text",
-        "name": "name",
-        "placeholder": "First Name"
-      },
-      {
-        "type": "text",
-        "name": "lastName",
-        "placeholder": "Last Name"
-      },
-      {
-        "type": "email",
-        "name": "email",
-        "placeholder": "Email"
-      },
-      {
-        "type": "number",
-        "name": "phone",
-        "placeholder": "Phone Number"
-      }
+      { "type": "text", "name": "name", "placeholder": "First Name" },
+      { "type": "text", "name": "lastName", "placeholder": "Last Name" },
+      { "type": "email", "name": "email", "placeholder": "Email" },
+      { "type": "tel", "name": "phone", "placeholder": "Phone Number" }
     ],
-    "text_area": {
-      "placeholder": "Your message"
-    },
+    "text_area": { "placeholder": "Your message" },
     "send_button": "Send Message"
   },
   "Projects": {
-    "title": "Selected",
-    "subtitle": "Proyects",
+    "title": "Featured",
+    "subtitle": "projects",
+    "intro": "ArcadeCore ecosystem: multi-app central backend with authentication, quiz, chat and admin frontends.",
     "items": [
       {
-        "title": "Landings and E-commerces",
-        "description": "Project for the management of landings and e-commerces of Creztu's clients, a multitenant software capable of handling and managing personal information about your business concept as a Creztu client.",
-        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience.",
-        "devStack": "Next, Tailwind CSS, Nest",
-        "links": [
-          {
-            "title": "Web 1",
-            "url": "https://regulatoryintelligence.com"
-          },
-          {
-            "title": "Web 2",
-            "url": "https://www.audiostoregt.com"
-          },
-          {
-            "title": "Web 3",
-            "url": "https://orionrealtyco.com"
-          }
-        ],
-        "image": "/images/projects/lading_projects.png"
-      },
-      {
-        "title": "Creztu",
-        "description": "Project for landings and e-commerces management",
-        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience.",
-        "devStack": "Next, Nest",
-        "links": [
-          {
-            "title": "Web",
-            "url": "https://creztu.com/sitiosweb"
-          }
-        ],
-        "image": "/images/projects/creztu.png"
-      },
-      {
-        "title": "Governance.CC",
-        "description": "Multitenant and multi-user software capable of managing information related to a company and its clients. I worked on migrating the monolithic software to microservices and microapps, as well as migrating database information from PSQL to DynamoDB. Finally, I performed version upgrades from Java 8 to 11 and from Angular beta to 14, together with my team.",
-        "smallDescription": "Project belonging to Creztu SAS, shown here solely as part of my work experience. (Not publicly available)",
-        "devStack": "AngularJS, Java, Hibernate, Jakarta EE, PSQL",
-        "links": [],
-        "image": "/images/projects/vernuso.png"
-      },
-      {
-        "title": "Chatbox-server",
-        "description": "This project allows querying information about common diseases in dogs using a local language model (Ollama) and a fast search index based on text embeddings. It was my first experience interacting with pre-trained local AI models, where a specific behavior is configured and enriched with a previously defined context.",
-        "smallDescription": "Personal project where I aimed to learn more about Python and the use of local models, in this case LLaMA2 from Ollama.",
-        "devStack": "Python, Ollama, Llama2, FastAPI",
+        "title": "ArcadeCore API",
+        "description": "Central backend of the Arcade ecosystem. REST API with Node.js, Express, PostgreSQL and Prisma. Multi-app JWT auth, server-side quiz challenges, WebSocket chat, leaderboard, player progression and admin panel.",
+        "devStack": "Node.js · TypeScript · Express · Prisma · PostgreSQL · WebSocket · Supabase",
         "links": [
           {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/chatbox-server"
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-core"
+          },
+          {
+            "title": "Swagger",
+            "url": "https://arcade-core.onrender.com/api/docs"
+          },
+          {
+            "title": "API Health",
+            "url": "https://arcade-core.onrender.com/health"
           }
         ],
-        "image": "/images/projects/python.png"
+        "gradient": "from-cyan-600/40 to-violet-700/40"
       },
       {
-        "title": "Corpoturismo",
-        "description": "Web application for managing the arrivals and departures of tourist cruises in the city of Cartagena. The system has two main interfaces: the administration panel in black and the user panel in blue. The goal is to improve tourist service by helping guides stay better organized, as the system provides a type of scheduling or shift management for each incoming event.",
-        "smallDescription": "Personal project developed to gain experience with the mentioned technologies.",
-        "devStack": "PHP, JS, Bootstrap, MySQL",
+        "title": "Generic Login",
+        "description": "Centralized authentication portal for the ecosystem. Login, registration and mandatory password change. Redirects to each SPA after authenticating against ArcadeCore with HttpOnly cookies per app.",
+        "devStack": "Next.js · React · TypeScript · Tailwind CSS · Axios",
         "links": [
           {
-            "title": "Web",
-            "url": "https://corpoturimosdevseb.infinityfreeapp.com/"
+            "title": "View demo",
+            "url": "https://arcade-generic-login.vercel.app/login"
           },
           {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/corpoturismo"
+            "url": "https://github.com/Sebastian-R-A-Dev/generic-login"
           }
         ],
-        "image": "/images/projects/corpoturismo.png"
+        "gradient": "from-violet-600/40 to-cyan-700/40"
       },
       {
-        "title": "Java Admin Cafe",
-        "description": "Server for the Café Admin platform, developed in Java with Spring Boot.",
-        "smallDescription": "Personal project developed to gain experience with the mentioned technologies.",
-        "devStack": "Java, Spring Boot, MySQL",
+        "title": "English Challenge",
+        "description": "Gamer SPA for real-time English challenges. Difficulty wheel, timed questions, XP, levels and global ranking. Consumes ArcadeCore challenge and progression API.",
+        "devStack": "Next.js · React · Zustand · Framer Motion · Tailwind CSS",
         "links": [
           {
+            "title": "View demo",
+            "url": "https://arcade-english-challenge.vercel.app/"
+          },
+          {
             "title": "GitHub",
-            "link": "https://github.com/Sebastian-R-A-Dev/java-backend-cafe-admin"
+            "url": "https://github.com/Sebastian-R-A-Dev/english-challenge"
           }
         ],
-        "image": "/images/projects/javaspringboot.png"
+        "gradient": "from-cyan-500/40 to-fuchsia-700/40"
       },
       {
-        "title": "Inferno Bank",
-        "description": "(Challenge) NodeJs, Terraform, and AWS Services project",
-        "smallDescription": "Personal project developed to gain experience with the mentioned technologies.",
-        "devStack": "NodeJs, Terraform, AWS Services",
+        "title": "Arcade Chat",
+        "description": "Real-time community chat with ephemeral global room, persistent direct messages, online presence and XP for connected time. WebSocket + REST client over ArcadeCore.",
+        "devStack": "Next.js · React · Zustand · WebSocket · Framer Motion",
         "links": [
           {
+            "title": "View demo",
+            "url": "https://core-arcade-chat.vercel.app/"
+          },
+          {
             "title": "GitHub",
-            "url": "https://github.com/Sebastian-R-A-Dev/inferno-bank/tree/main/terraform"
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-chat"
           }
         ],
-        "image": "/images/projects/node_terraform_aws.png"
+        "gradient": "from-fuchsia-600/40 to-cyan-600/40"
+      },
+      {
+        "title": "Admin Dashboard",
+        "description": "Admin panel to manage apps, users, questions, difficulties, images, audios and level messages for the Arcade ecosystem. Full CRUD with administrator authentication.",
+        "devStack": "Next.js · React · TypeScript · Tailwind CSS",
+        "links": [
+          {
+            "title": "View demo",
+            "url": "https://arcade-admin-dashboard.vercel.app/"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Sebastian-R-A-Dev/arcade-admin-dashboard"
+          }
+        ],
+        "gradient": "from-amber-600/30 to-violet-700/40"
       }
     ]
   },
   "Anexes": {
     "title": "Annexes",
-    "subtitle": "To whom It May Concern",
+    "subtitle": "Certifications and documents",
+    "clickHint": "Click to view in detail",
     "items": [
       { "img": "/images/anexos/diploma.jpg", "label": "Diploma" },
       { "img": "/images/anexos/acta.jpg", "label": "Graduation Certificate" },
-      { "img": "/images/anexos/ingles.jpg", "label": "English Certificate" },
-      {
-        "img": "/images/anexos/certificado_lab.jpg",
-        "label": "Work Certificate"
-      }
+      { "img": "/images/anexos/ingles.jpg", "label": "English Certificate" }
     ]
   }
 }

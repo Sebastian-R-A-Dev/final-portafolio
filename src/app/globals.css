@@ -1,21 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent: #22d3ee;
+  --accent-muted: #0891b2;
+  --accent-glow: rgba(34, 211, 238, 0.15);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
@@ -28,25 +26,54 @@ html {
   scroll-behavior: smooth;
 }
 
-@keyframes gradient-xy {
-  0%,
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
   100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
+    transform: translateX(-50%);
   }
 }
 
-.animate-gradient-xy {
-  animation: gradient-xy 5s ease infinite;
-  background-size: 200% 200%;
+.animate-marquee {
+  animation: marquee 35s linear infinite;
 }
 
-/* globals.css */
-.gradient-custom {
-  background: linear-gradient(to bottom, #171717, #381a5F, #171717);
-  background-repeat: no-repeat;
-  background-size: cover;
+@keyframes annex-carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
+.animate-annex-carousel {
+  animation: annex-carousel 28s linear infinite;
+}
+
+.animate-annex-carousel:hover {
+  animation-play-state: paused;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+.glass-card:hover {
+  border-color: rgba(34, 211, 238, 0.35);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+.accent-gradient-text {
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
