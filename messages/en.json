@@ -77,6 +77,9 @@
     "title": "Featured",
     "subtitle": "projects",
     "intro": "ArcadeCore ecosystem: multi-app central backend with authentication, quiz, chat and admin frontends.",
+    "demoEmail": "Email",
+    "demoEmails": "Emails",
+    "demoPassword": "Password",
     "items": [
       {
         "title": "ArcadeCore API",
@@ -118,6 +121,11 @@
         "title": "English Challenge",
         "description": "Gamer SPA for real-time English challenges. Difficulty wheel, timed questions, XP, levels and global ranking. Consumes ArcadeCore challenge and progression API.",
         "devStack": "Next.js · React · Zustand · Framer Motion · Tailwind CSS",
+        "demoAccess": {
+          "intro": "Want to try it? Use either of these demo accounts:",
+          "emails": ["demo@demo.com", "demo2@demo.com"],
+          "password": "demo@demo"
+        },
         "links": [
           {
             "title": "View demo",
@@ -134,6 +142,11 @@
         "title": "Arcade Chat",
         "description": "Real-time community chat with ephemeral global room, persistent direct messages, online presence and XP for connected time. WebSocket + REST client over ArcadeCore.",
         "devStack": "Next.js · React · Zustand · WebSocket · Framer Motion",
+        "demoAccess": {
+          "intro": "Want to try it? Use either of these demo accounts:",
+          "emails": ["demo@chat.com", "demo2@chat.com"],
+          "password": "demo@demo"
+        },
         "links": [
           {
             "title": "View demo",
@@ -150,6 +163,11 @@
         "title": "Admin Dashboard",
         "description": "Admin panel to manage apps, users, questions, difficulties, images, audios and level messages for the Arcade ecosystem. Full CRUD with administrator authentication.",
         "devStack": "Next.js · React · TypeScript · Tailwind CSS",
+        "demoAccess": {
+          "intro": "Interested in a hands-on walkthrough? Explore the panel in read-only mode with these credentials:",
+          "emails": ["readonly@readonly.com"],
+          "password": "readonly"
+        },
         "links": [
           {
             "title": "View demo",

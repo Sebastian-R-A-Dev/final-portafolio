@@ -77,6 +77,9 @@
     "title": "Proyectos",
     "subtitle": "destacados",
     "intro": "Ecosistema ArcadeCore: backend central multi-app con frontends de autenticación, quiz, chat y administración.",
+    "demoEmail": "Email",
+    "demoEmails": "Emails",
+    "demoPassword": "Contraseña",
     "items": [
       {
         "title": "ArcadeCore API",
@@ -118,6 +121,11 @@
         "title": "English Challenge",
         "description": "SPA gamer de retos de inglés en tiempo real. Ruleta de dificultad, preguntas cronometradas, XP, niveles y ranking global. Consume la API de retos y progresión de ArcadeCore.",
         "devStack": "Next.js · React · Zustand · Framer Motion · Tailwind CSS",
+        "demoAccess": {
+          "intro": "¿Te interesa probarlo? Usa cualquiera de estas cuentas demo:",
+          "emails": ["demo@demo.com", "demo2@demo.com"],
+          "password": "demo@demo"
+        },
         "links": [
           {
             "title": "Ver demo",
@@ -134,6 +142,11 @@
         "title": "Arcade Chat",
         "description": "Chat comunitario en tiempo real con sala global efímera, mensajes directos persistentes, presencia online y XP por tiempo conectado. Cliente WebSocket + REST sobre ArcadeCore.",
         "devStack": "Next.js · React · Zustand · WebSocket · Framer Motion",
+        "demoAccess": {
+          "intro": "¿Te interesa probarlo? Usa cualquiera de estas cuentas demo:",
+          "emails": ["demo@chat.com", "demo2@chat.com"],
+          "password": "demo@demo"
+        },
         "links": [
           {
             "title": "Ver demo",
@@ -150,6 +163,11 @@
         "title": "Admin Dashboard",
         "description": "Panel administrativo para gestionar apps, usuarios, preguntas, dificultades, imágenes, audios y mensajes de nivel del ecosistema Arcade. CRUD completo con autenticación de administrador.",
         "devStack": "Next.js · React · TypeScript · Tailwind CSS",
+        "demoAccess": {
+          "intro": "¿Te interesa hacer una prueba? Explora el panel en modo solo lectura con estas credenciales:",
+          "emails": ["readonly@readonly.com"],
+          "password": "readonly"
+        },
         "links": [
           {
             "title": "Ver demo",
